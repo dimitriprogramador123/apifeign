@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      #uri: mongodb+srv://stocktracking:WDjkWVFKCDw40jrC@paneladev.78l2uxy.mongodb.net/stocktracking
+      host: localhost
+      port: 27017
+      database: stocktracker
+
+stock:
+  client:
+    brapi:
+      url: https://brapi.dev/api/quote
+      token: fUCHVmU8MPj2728AADkiTLL
